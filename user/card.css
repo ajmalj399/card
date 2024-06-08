@@ -6,6 +6,8 @@
     margin-top:20px;
     border-radius: 15px;
     box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.134);
+    border: none;
+    border-color: black;
 
 }
 .avatar{
@@ -49,17 +51,18 @@
   font-style: normal;
   display: inline;
   letter-spacing: 3px;
-  color: rgba(0, 0, 0, 0.648);
+  /* color: rgba(0, 0, 0, 0.648); */
 }
 .outfit-emp_id {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: initial;
-    color: rgba(0, 0, 0, 0.584);
+    /* color: rgba(0, 0, 0, 0.584); */
     font-size: 14px;
     display:inline;
     letter-spacing: 1px;
+
   }
 .name{
     margin-top: 10px;
@@ -70,6 +73,7 @@
     gap: 2px;
     height:30%;
     width: 100%;
+    color: whitesmoke;
     
 }
 .button{
@@ -87,4 +91,12 @@
     border: none;
     letter-spacing: 1px;
 
+}
+.glass{
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 0.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
